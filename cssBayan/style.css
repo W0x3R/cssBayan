@@ -48,7 +48,7 @@ body {
 }
 .label {
   cursor: pointer;
-  background: linear-gradient(0.31turn, #65619d, #7ca2ef, #ffffff);
+  background: linear-gradient(0.31turn, #8784b7, #a4bbe9, #ffffff);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
