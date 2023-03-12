@@ -122,7 +122,7 @@ input {
 /* FOR DESKTOP DEVICES */
 
 @media (hover: hover) and (pointer: fine) {
-  .accordion-wrapper:hover .label {
+  .accordion-wrapper:hover .label-header {
     color: black;
   }
   input:checked + label {
@@ -166,12 +166,12 @@ input {
     background-color: rgb(255, 15, 15);
     border-radius: 1rem;
   }
-  .inner-content :active + .label {
-    opacity: 0.7;
+  .inner-content :active + .label-header {
+    opacity: 0.6;
     color: rgb(1, 171, 250);
   }
   .inner-content :active {
-    opacity: 0.7;
+    opacity: 0.6;
   }
 }
 /* FOR TABLET AND MOBILE DEVICES */
