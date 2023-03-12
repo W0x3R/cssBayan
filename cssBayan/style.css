@@ -66,6 +66,7 @@ body {
 input {
   display: none;
 }
+
 @media (max-width: 820px) and (min-width: 381px) {
   .wrapper {
     padding-top: 1rem;
@@ -129,6 +130,7 @@ input {
     color: #000;
     padding: 1rem 1.2rem 1rem;
   }
+
   .inner-content:hover > .label-wrapper-images {
     height: auto;
     transition: ease 1.7s;
@@ -155,6 +157,13 @@ input {
     transform: rotate(1440deg);
     background-color: rgb(255, 15, 15);
     border-radius: 1rem;
+  }
+  .inner-content :active + .label {
+    opacity: 0.7;
+    color: rgb(1, 171, 250);
+  }
+  .inner-content :active {
+    opacity: 0.7;
   }
 }
 /* FOR TABLET AND MOBILE DEVICES */
