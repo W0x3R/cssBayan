@@ -169,9 +169,11 @@ input {
   .inner-content :active + .label-header {
     opacity: 0.6;
     color: rgb(1, 171, 250);
+    cursor: progress;
   }
   .inner-content :active {
     opacity: 0.6;
+    cursor: progress;
   }
 }
 /* FOR TABLET AND MOBILE DEVICES */
